@@ -193,7 +193,7 @@ li{
         margin-top: 30px;
     }
     .footer__menu{
-        height: 700px;
+        height: 750px;
     }
     .wrapper{
         grid-template-areas: "col1"
@@ -215,7 +215,7 @@ li{
         margin-bottom: 50px;
     }
     .logo{
-        height: 200px;
+        height: 150px;
     }
     .city{
         margin-top: 30px;
