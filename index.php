@@ -32,7 +32,7 @@
                 <hr class="line">
                 <div class="links wow bounceInDown">
                     <ul>
-                        <li><a href="/">Главная</a></li>
+                        <li><a href="https://rahatpapalcehotelexam.herokuapp.com/">Главная</a></li>
                         <li><a href="page1.html">Отель</a></li>
                         <li><a href="page2.html">Номера</a></li>
                         <li><a href="page3.html">СПА центр</a></li>
