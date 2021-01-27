@@ -1,0 +1,172 @@
+body{
+    background-color: rgb(238, 235, 235);
+}
+
+.header__menu{
+    background-color: blue;
+    background: rgb(1,57,110, 0.9);
+}
+
+.textmenu{
+    color: white;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+}
+
+.img img{
+    width: 30px;
+    height: 30px;
+    margin: 0 0 20px 10px;
+}
+
+.menutext{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    font-family: serif;
+    margin-left: 20px;
+}
+
+hr{
+    height: 1px;
+    background-color: white;
+}
+
+.links a{
+    color: white;
+    text-decoration: none;
+    margin-left: 70px;
+    font-weight: bolder;
+}
+
+.links a:hover{
+    color: yellow;
+}
+
+.gallery{
+    display: flex;
+    justify-content: center;
+    color: #E4CF10;
+    margin-top: 50px;
+}
+
+.iimg{
+    height: 200px;
+    margin-top: 70px;
+}
+
+.footer__menu{
+    height: 200px;
+    background-color: #003e79;
+    margin-top: 8%;
+}
+
+.logo{
+    height: 60px;
+    margin-top: 20px;
+}
+
+.city{
+    margin-left: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.span{
+    color: white;
+}
+
+.adress{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.number{
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+
+.logotext{
+    margin: 25px 0 0 33px;
+}
+
+.logotext span{
+    font-family: cursive;
+}
+
+.map{
+    display: flex; 
+    margin: 70px 0 0 40px;
+}
+
+.map a{
+    color: white;
+    font-size: large;
+}
+
+.map img{
+    height: 33px;
+}
+
+.textspan{
+    margin: 50px 0 0 30px;
+}
+
+.textspan a{
+    text-decoration: none;
+    color: white;
+}
+
+.city{
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+li{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+@media(max-width: 768px){
+    li{
+        display: block;
+        margin-top: 30px;
+    }
+    .links{
+        height: 300px;
+        text-align: center;
+    }
+    .links a{
+        margin-left: 0;
+    }
+    .footer__menu{
+        height: 700px;
+    }
+    .iimg{
+        width: 100%;
+        height: 70%;
+    }
+    .logo{
+        height: 200px;
+    }
+    .city{
+        margin-top: 30px;
+    }
+    .map{
+        justify-content: center;
+    }
+}
